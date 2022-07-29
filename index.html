@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Basic Layout</title>
+   <style>
+    .header{
+        background-color: darkgoldenrod;
+        text-align: center;
+        padding:40px 0px 40px 0px;
+        font-size: 30px;
+    }
+    .menu{
+        background-color:cadetblue ;
+        padding:20px 0px 20px 0px;
+        font-size: 20px;
+        font-weight: bold;
+        color:darkred;
+    }
+    .sidebar{
+        width: 48%;
+        height: 250px;
+        background-color:salmon;
+        float: left;
+        font-weight: 700;
+        padding-left: 26px;
+    }
+    #sidebar{
+        text-align: center;
+    }
+    .content{
+        width: 47%;
+        height: 250px;
+        background-color:yellowgreen;
+        float: left;
+        padding-left: 40px;
+        font-weight: 700;
+        
+    }
+    #content{
+        text-align: center;
+    }
+    .footer{
+        background-color:blue ;
+        padding:20px 0px 20px 0px;
+        
+        font-size: 20px;
+        font-weight: bold;
+        color:white;
+    }
+    .footer marquee{
+        margin-top: 20px;
+    }
+   </style>
+</head>
+<body>
+
+    <!-- Header part start from here -->
+    <header>
+        <div class="header">
+            <h1 >Header</h1>
+        </div>
+        <div class="menu">
+            <p><marquee behavior="" direction="">Menu with marquee</marquee> </p>
+        </div>
+    </header>
+
+    <!-- Body content start from here -->
+   <div class="body">
+        <div class="sidebar">
+            <h2 id="sidebar">Sidebar</h2>
+            <article>
+                Rakibul Hasan Emon <br><br>
+                ID: 1915002532 <br><br>
+                Batch : 50<sup>th</sup> <br><br>
+                Department of CSE <br><br>
+                City University
+            </article>  
+              
+        </div>
+        <div class="content">
+            <h2 id="content">Content</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>A markup language</dd><br>
+                <dt>CSS</dt>
+                <dd>A language to design webpages</dd>
+                <br><dt>JavaScript</dt>
+                <dd>A scription language</dd>
+              </dl>
+        </div>
+   </div>
+
+   <!-- Footer part start from here -->
+    <footer class="footer">
+        <marquee behavior="" direction="">Footer with marquee </marquee>
+    </footer>
+</body>
+</html>
+
